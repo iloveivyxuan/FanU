@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="container-at">
+    <view class="title">特别邀请</view>
+    <view class="items">
+      <view class="invitation" style="width:{{(systemInfo.windowWidth-40)/3}}px;height: {{(systemInfo.windowWidth-40)/3*300/200}}px;">
+        <image class="avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <view class="name">{{userInfo.nickName}}</view>
+      </view>
+      <view class="invitation" style="width:{{(systemInfo.windowWidth-40)/3}}px;height: {{(systemInfo.windowWidth-40)/3*300/200}}px;">
+      </view>
+      <view class="invitation" style="width:{{(systemInfo.windowWidth-40)/3}}px;height: {{(systemInfo.windowWidth-40)/3*300/200}}px;">
+      </view>
+    </view>
+  </view>
+
+  <view class="container-all">
+    <view class="title">全部邀请</view>
+    <view>
+      <view class="invitation">
+      </view>
+      <view class="invitation">
+      </view>
+      <view class="invitation">
+      </view>
+      <view class="invitation">
+      </view>
+      <view class="invitation">
+      </view>
+      <view class="invitation">
+      </view>
+      <view class="invitation">
+      </view>
+      <view class="invitation">
+      </view>
+      <view class="invitation">
+      </view>
+      <view class="invitation">
+      </view>
+      <view class="invitation">
+      </view>
+    </view>
+  </view>
+</view>
+

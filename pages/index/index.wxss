@@ -1,0 +1,37 @@
+/**index.wxss**/
+.container-at {
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+.container-at .title {
+  font-size: 12px;
+  margin-bottom: 20rpx;
+}
+
+.container-at .items {
+  display: flex;
+  justify-content: space-between;
+}
+.container-at .items .invitation {
+  background-color: #eee;
+}
+.container-at .items .invitation .avatar {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+}
+
+.container-all {
+  width: 100%;
+}
+.container-all .title {
+  font-size: 12px;
+  margin-bottom: 20rpx;
+}
+.container-all .invitation {
+  width: 100%;
+  position: relative;
+  height: 220rpx;
+  background-color: #eee;
+  margin-bottom: 20rpx;
+}
