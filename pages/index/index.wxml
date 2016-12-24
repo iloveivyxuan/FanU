@@ -6,6 +6,8 @@
       <view class="invitation" style="width:{{(systemInfo.windowWidth-40)/3}}px;height: {{(systemInfo.windowWidth-40)/3*300/200}}px;">
         <image class="avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
         <view class="name">{{userInfo.nickName}}</view>
+        <view class="info">{{info}}</view>
+        <button>查看详情</button>
       </view>
       <view class="invitation" style="width:{{(systemInfo.windowWidth-40)/3}}px;height: {{(systemInfo.windowWidth-40)/3*300/200}}px;">
       </view>
@@ -16,8 +18,16 @@
 
   <view class="container-all">
     <view class="title">全部邀请</view>
-    <view>
+    <view class="items">
       <view class="invitation">
+        <view class="avatar">
+          <image class="avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        </view>
+        <view class="info">
+          <view class="name">{{userInfo.nickName}}</view>
+          <view class="food">{{food}}</view>
+          <view class="des">我要约饭嘛嘛嘛嘛</view>
+        </view>
       </view>
       <view class="invitation">
       </view>

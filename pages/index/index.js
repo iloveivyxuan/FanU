@@ -5,7 +5,9 @@ Page({
   data: {
     systemInfo: {},
     motto: 'Hello World',
-    userInfo: {}
+    info: '今天中午·火锅',
+    userInfo: {},
+    food: '日本料理'
   },
   //事件处理函数
   invitationClick: function() {

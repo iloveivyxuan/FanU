@@ -14,11 +14,30 @@
 }
 .container-at .items .invitation {
   background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .container-at .items .invitation .avatar {
-  width: 160rpx;
-  height: 160rpx;
+  width: 130rpx;
+  height: 130rpx;
   border-radius: 50%;
+  margin-top: 20rpx;
+}
+.container-at .items .invitation .name {
+  margin-top: 20rpx;
+  font-size: 16px;
+  font-weight: 600;
+}
+.container-at .items .invitation .info {
+  font-size: 12px;
+  font-weight: 200;
+  color: #999;
+  margin-top: 10rpx;
+}
+.container-at .items .invitation button {
+  font-size: 12px;
+  margin-top: 20rpx;
 }
 
 .container-all {
@@ -34,4 +53,21 @@
   height: 220rpx;
   background-color: #eee;
   margin-bottom: 20rpx;
+}
+.container-all .invitation .avatar {
+  width: 150rpx;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10rpx;
+}
+.container-all .invitation .avatar image {
+  width: 150rpx;
+  height: 140rpx;
+  border-radius: 50%;
+}
+.container-all .invitation .info {
+  display: inline-block;
+  vertical-align: top;
 }
